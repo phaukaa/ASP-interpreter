@@ -1,0 +1,152 @@
+ +  3.14  ==>
+Trace line 2: 3.14
+ +  4  ==>
+Trace line 3: 4
+ -  3.1416  ==>
+Trace line 6: -3.1416
+ -  5  ==>
+Trace line 7: -5
+ 1  +  2  + ( -  10 ) +  3  +  4  ==>
+Trace line 10: 0
+ 3  +  1.0  ==>
+Trace line 11: 4.0
+ 3.14  +  10  ==>
+Trace line 12: 13.14
+ 2.78  +  3.14  ==>
+Trace line 13: 5.92
+ "Abra"  +  "kadabra"  ==>
+Trace line 14: "Abrakadabra"
+ 10  -  2  - ( -  10 ) -  3  ==>
+Trace line 17: 15
+ 10  -  1.25  ==>
+Trace line 18: 8.75
+ 10.5  -  7  ==>
+Trace line 19: 3.5
+ 10.5  -  7.5  ==>
+Trace line 20: 3.0
+ 3  *  2  * ( -  1 ) ==>
+Trace line 23: -6
+ 2  *  3.14  ==>
+Trace line 24: 6.28
+ 10.0  *  50  ==>
+Trace line 25: 500.0
+ 10.0  *  17.25  ==>
+Trace line 26: 172.5
+ "["  +  "-"  *  3  +  "]"  ==>
+Trace line 27: "[---]"
+ [ 2  , "a" ]  *  3  ==>
+Trace line 28: [2, "a", 2, "a", 2, "a"]
+ 14  /  3  ==>
+Trace line 31: 4.666666666666667
+ 14  /  -  3.0  ==>
+Trace line 32: -4.666666666666667
+ 14.0  /  -  3  ==>
+Trace line 33: -4.666666666666667
+ -  14.0  /  -  3.0  ==>
+Trace line 34: 4.666666666666667
+ 14  //  3  ==>
+Trace line 37: 4
+ 14  //  -  3.0  ==>
+Trace line 38: -5.0
+ 14.0  //  -  3  ==>
+Trace line 39: -5.0
+ -  14.0  //  -  3.0  ==>
+Trace line 40: 4.0
+ 14  %  3  ==>
+Trace line 43: 2
+ 14  %  -  3.0  ==>
+Trace line 44: -1.0
+ 14.0  %  -  3  ==>
+Trace line 45: -1.0
+ -  14.0  %  -  3.0  ==>
+Trace line 46: -2.0
+ 27  ==  - ( -  27 ) ==  27  ==>
+Trace line 49: True
+ 3  ==  3.0  ==>
+Trace line 50: True
+ 10  /  2  ==  16  //  3  ==  22  //  4  ==>
+Trace line 51: True
+ 1.0  ==  1.0001  ==>
+Trace line 52: False
+ "Ja"  ==  "ja"  ==>
+Trace line 53: False
+ None  ==  "ingenting"  ==>
+Trace line 54: False
+ [ "Absolutt"  , "ingenting" ]  ==  None  ==>
+Trace line 55: False
+ 27  !=  - ( -  27 ) !=  27  ==>
+Trace line 58: False
+ 3  !=  3.0  ==>
+Trace line 59: False
+ 10  /  2  !=  16  //  3  ==>
+Trace line 60: False
+ 1  ==  1.0  !=  1.0001  ==>
+Trace line 61: True
+ "Ja"  !=  "ja"  ==>
+Trace line 62: True
+ None  !=  "ingenting"  ==>
+Trace line 63: True
+ [ "Absolutt"  , "ingenting" ]  !=  None  ==>
+Trace line 64: True
+ 27  <  - ( -  27 ) ==>
+Trace line 67: False
+ 3  <  3.1  <  3.2  >  0  ==>
+Trace line 68: True
+ 10  /  2  <  16  //  3  ==>
+Trace line 69: False
+ 1.0  <  1.0001  ==>
+Trace line 70: True
+ "Ja"  <  "ja"  ==>
+Trace line 71: True
+ 27  <=  - ( -  27 ) ==>
+Trace line 74: True
+ 3  <=  3.1  <=  3.2  >  0  ==>
+Trace line 75: True
+ 10  /  2  <=  16  //  3  ==>
+Trace line 76: True
+ 1.0  <=  1.0001  ==>
+Trace line 77: True
+ "A"  <=  "Z"  <=  "Å"  ==>
+Trace line 78: True
+ 27  >  - ( -  27 ) ==>
+Trace line 81: False
+ 3  >  3.0  ==>
+Trace line 82: False
+ 10  /  2  >  16  //  3  ==>
+Trace line 83: False
+ 1.0  >  1.0001  ==>
+Trace line 84: False
+ "Ja"  >  "ja"  ==>
+Trace line 85: False
+ 27  >=  - ( -  27 ) ==>
+Trace line 88: True
+ 3  >=  3.0  ==>
+Trace line 89: True
+ 10  /  2  >=  16  //  3  ==>
+Trace line 90: True
+ 1.0  >=  1.0001  ==>
+Trace line 91: False
+ "Ja"  >=  "ja"  ==>
+Trace line 92: False
+ not ( 1  +  1  ==  2 ) ==>
+Trace line 95: False
+ not  { "ja"  :  1  , "nei"  :  3 }  ==>
+Trace line 96: False
+ not  0.0  ==>
+Trace line 97: True
+ not  2  +  2  ==>
+Trace line 98: False
+ not  []  ==>
+Trace line 99: True
+ not  None  ==>
+Trace line 100: True
+ not  "not"  ==>
+Trace line 101: False
+ True  and  True  and  True  ==>
+Trace line 104: True
+ 1  and  3.14  and  "nei"  ==>
+Trace line 105: "nei"
+ False  or  False  or  False  ==>
+Trace line 108: False
+ 0  or  3.14  or ( 1  +  1  ==  2 ) ==>
+Trace line 109: 3.14

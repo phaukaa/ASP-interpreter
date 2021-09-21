@@ -1,0 +1,56 @@
+   1: # Dette programmet er lovlig, og skal tolkes slik i henhold til grammatikken:
+   2: #
+   3: #   (-a) - (-b) - (-1)
+   4:
+   5: a = 1
+Scanner: name token on line 5: a
+Scanner: = token on line 5
+Scanner: integer literal token on line 5: 1
+Scanner: NEWLINE token on line 5
+   6: b = 2
+Scanner: name token on line 6: b
+Scanner: = token on line 6
+Scanner: integer literal token on line 6: 2
+Scanner: NEWLINE token on line 6
+   7: v = -a--b--1
+Scanner: name token on line 7: v
+Scanner: = token on line 7
+Scanner: - token on line 7
+Scanner: name token on line 7: a
+Scanner: - token on line 7
+Scanner: - token on line 7
+Scanner: name token on line 7: b
+Scanner: - token on line 7
+Scanner: - token on line 7
+Scanner: integer literal token on line 7: 1
+Scanner: NEWLINE token on line 7
+   8: print(v)
+Scanner: name token on line 8: print
+Scanner: ( token on line 8
+Scanner: name token on line 8: v
+Scanner: ) token on line 8
+Scanner: NEWLINE token on line 8
+   9: w = (-a)-(-b)-(-1)
+Scanner: name token on line 9: w
+Scanner: = token on line 9
+Scanner: ( token on line 9
+Scanner: - token on line 9
+Scanner: name token on line 9: a
+Scanner: ) token on line 9
+Scanner: - token on line 9
+Scanner: ( token on line 9
+Scanner: - token on line 9
+Scanner: name token on line 9: b
+Scanner: ) token on line 9
+Scanner: - token on line 9
+Scanner: ( token on line 9
+Scanner: - token on line 9
+Scanner: integer literal token on line 9: 1
+Scanner: ) token on line 9
+Scanner: NEWLINE token on line 9
+  10: print(w)
+Scanner: name token on line 10: print
+Scanner: ( token on line 10
+Scanner: name token on line 10: w
+Scanner: ) token on line 10
+Scanner: NEWLINE token on line 10

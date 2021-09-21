@@ -1,0 +1,487 @@
+<program>
+   1: # Dette programmet leser norske fødelsnumre (11 sifre) og
+   2: # sjekker om kontrollsifrene er riktige.
+   3: 
+   4: vekter_1 = [ 3, 7, 6, 1, 8, 9, 4, 5, 2 ]
+  <small stmt list>
+    <assignment>
+      <name>
+      </name>
+      <expr>
+        <and test>
+          <not test>
+            <comparison>
+              <term>
+                <factor>
+                  <primary>
+                    <list display>
+                      <expr>
+                        <and test>
+                          <not test>
+                            <comparison>
+                              <term>
+                                <factor>
+                                  <primary>
+                                    <integer literal>
+                                    </integer literal>
+                                  </primary>
+                                </factor>
+                              </term>
+                            </comparison>
+                          </not test>
+                        </and test>
+                      </expr>
+                      <expr>
+                        <and test>
+                          <not test>
+                            <comparison>
+                              <term>
+                                <factor>
+                                  <primary>
+                                    <integer literal>
+                                    </integer literal>
+                                  </primary>
+                                </factor>
+                              </term>
+                            </comparison>
+                          </not test>
+                        </and test>
+                      </expr>
+                      <expr>
+                        <and test>
+                          <not test>
+                            <comparison>
+                              <term>
+                                <factor>
+                                  <primary>
+                                    <integer literal>
+                                    </integer literal>
+                                  </primary>
+                                </factor>
+                              </term>
+                            </comparison>
+                          </not test>
+                        </and test>
+                      </expr>
+                      <expr>
+                        <and test>
+                          <not test>
+                            <comparison>
+                              <term>
+                                <factor>
+                                  <primary>
+                                    <integer literal>
+                                    </integer literal>
+                                  </primary>
+                                </factor>
+                              </term>
+                            </comparison>
+                          </not test>
+                        </and test>
+                      </expr>
+                      <expr>
+                        <and test>
+                          <not test>
+                            <comparison>
+                              <term>
+                                <factor>
+                                  <primary>
+                                    <integer literal>
+                                    </integer literal>
+                                  </primary>
+                                </factor>
+                              </term>
+                            </comparison>
+                          </not test>
+                        </and test>
+                      </expr>
+                      <expr>
+                        <and test>
+                          <not test>
+                            <comparison>
+                              <term>
+                                <factor>
+                                  <primary>
+                                    <integer literal>
+                                    </integer literal>
+                                  </primary>
+                                </factor>
+                              </term>
+                            </comparison>
+                          </not test>
+                        </and test>
+                      </expr>
+                      <expr>
+                        <and test>
+                          <not test>
+                            <comparison>
+                              <term>
+                                <factor>
+                                  <primary>
+                                    <integer literal>
+                                    </integer literal>
+                                  </primary>
+                                </factor>
+                              </term>
+                            </comparison>
+                          </not test>
+                        </and test>
+                      </expr>
+                      <expr>
+                        <and test>
+                          <not test>
+                            <comparison>
+                              <term>
+                                <factor>
+                                  <primary>
+                                    <integer literal>
+                                    </integer literal>
+                                  </primary>
+                                </factor>
+                              </term>
+                            </comparison>
+                          </not test>
+                        </and test>
+                      </expr>
+                      <expr>
+                        <and test>
+                          <not test>
+                            <comparison>
+                              <term>
+                                <factor>
+                                  <primary>
+                                    <integer literal>
+                                    </integer literal>
+                                  </primary>
+                                </factor>
+                              </term>
+                            </comparison>
+                          </not test>
+                        </and test>
+                      </expr>
+                    </list display>
+                  </primary>
+                </factor>
+              </term>
+            </comparison>
+          </not test>
+        </and test>
+      </expr>
+    </assignment>
+  </small stmt list>
+   5: vekter_2 = [ 5, 4, 3, 2, 7, 6, 5, 4, 3, 2 ]
+  <small stmt list>
+    <assignment>
+      <name>
+      </name>
+      <expr>
+        <and test>
+          <not test>
+            <comparison>
+              <term>
+                <factor>
+                  <primary>
+                    <list display>
+                      <expr>
+                        <and test>
+                          <not test>
+                            <comparison>
+                              <term>
+                                <factor>
+                                  <primary>
+                                    <integer literal>
+                                    </integer literal>
+                                  </primary>
+                                </factor>
+                              </term>
+                            </comparison>
+                          </not test>
+                        </and test>
+                      </expr>
+                      <expr>
+                        <and test>
+                          <not test>
+                            <comparison>
+                              <term>
+                                <factor>
+                                  <primary>
+                                    <integer literal>
+                                    </integer literal>
+                                  </primary>
+                                </factor>
+                              </term>
+                            </comparison>
+                          </not test>
+                        </and test>
+                      </expr>
+                      <expr>
+                        <and test>
+                          <not test>
+                            <comparison>
+                              <term>
+                                <factor>
+                                  <primary>
+                                    <integer literal>
+                                    </integer literal>
+                                  </primary>
+                                </factor>
+                              </term>
+                            </comparison>
+                          </not test>
+                        </and test>
+                      </expr>
+                      <expr>
+                        <and test>
+                          <not test>
+                            <comparison>
+                              <term>
+                                <factor>
+                                  <primary>
+                                    <integer literal>
+                                    </integer literal>
+                                  </primary>
+                                </factor>
+                              </term>
+                            </comparison>
+                          </not test>
+                        </and test>
+                      </expr>
+                      <expr>
+                        <and test>
+                          <not test>
+                            <comparison>
+                              <term>
+                                <factor>
+                                  <primary>
+                                    <integer literal>
+                                    </integer literal>
+                                  </primary>
+                                </factor>
+                              </term>
+                            </comparison>
+                          </not test>
+                        </and test>
+                      </expr>
+                      <expr>
+                        <and test>
+                          <not test>
+                            <comparison>
+                              <term>
+                                <factor>
+                                  <primary>
+                                    <integer literal>
+                                    </integer literal>
+                                  </primary>
+                                </factor>
+                              </term>
+                            </comparison>
+                          </not test>
+                        </and test>
+                      </expr>
+                      <expr>
+                        <and test>
+                          <not test>
+                            <comparison>
+                              <term>
+                                <factor>
+                                  <primary>
+                                    <integer literal>
+                                    </integer literal>
+                                  </primary>
+                                </factor>
+                              </term>
+                            </comparison>
+                          </not test>
+                        </and test>
+                      </expr>
+                      <expr>
+                        <and test>
+                          <not test>
+                            <comparison>
+                              <term>
+                                <factor>
+                                  <primary>
+                                    <integer literal>
+                                    </integer literal>
+                                  </primary>
+                                </factor>
+                              </term>
+                            </comparison>
+                          </not test>
+                        </and test>
+                      </expr>
+                      <expr>
+                        <and test>
+                          <not test>
+                            <comparison>
+                              <term>
+                                <factor>
+                                  <primary>
+                                    <integer literal>
+                                    </integer literal>
+                                  </primary>
+                                </factor>
+                              </term>
+                            </comparison>
+                          </not test>
+                        </and test>
+                      </expr>
+                      <expr>
+                        <and test>
+                          <not test>
+                            <comparison>
+                              <term>
+                                <factor>
+                                  <primary>
+                                    <integer literal>
+                                    </integer literal>
+                                  </primary>
+                                </factor>
+                              </term>
+                            </comparison>
+                          </not test>
+                        </and test>
+                      </expr>
+                    </list display>
+                  </primary>
+                </factor>
+              </term>
+            </comparison>
+          </not test>
+        </and test>
+      </expr>
+    </assignment>
+  </small stmt list>
+   6: 
+   7: def sjekk_kontrollsiffer (n, vekter):
+  <func def>
+    <name>
+    </name>
+    <name>
+    </name>
+    <name>
+    </name>
+    <suite>
+   8:    sum = 0
+      <small stmt list>
+        <assignment>
+          <name>
+          </name>
+          <expr>
+            <and test>
+              <not test>
+                <comparison>
+                  <term>
+                    <factor>
+                      <primary>
+                        <integer literal>
+                        </integer literal>
+                      </primary>
+                    </factor>
+                  </term>
+                </comparison>
+              </not test>
+            </and test>
+          </expr>
+        </assignment>
+      </small stmt list>
+   9:    for i in range(0,n):
+      <for stmt>
+        <name>
+        </name>
+        <expr>
+          <and test>
+            <not test>
+              <comparison>
+                <term>
+                  <factor>
+                    <primary>
+                      <name>
+                      </name>
+                      <arguments>
+                        <expr>
+                          <and test>
+                            <not test>
+                              <comparison>
+                                <term>
+                                  <factor>
+                                    <primary>
+                                      <integer literal>
+                                      </integer literal>
+                                    </primary>
+                                  </factor>
+                                </term>
+                              </comparison>
+                            </not test>
+                          </and test>
+                        </expr>
+                        <expr>
+                          <and test>
+                            <not test>
+                              <comparison>
+                                <term>
+                                  <factor>
+                                    <primary>
+                                      <name>
+                                      </name>
+                                    </primary>
+                                  </factor>
+                                </term>
+                              </comparison>
+                            </not test>
+                          </and test>
+                        </expr>
+                      </arguments>
+                    </primary>
+                  </factor>
+                </term>
+              </comparison>
+            </not test>
+          </and test>
+        </expr>
+        <suite>
+  10:       sum = sum + vekter[i]*sifre[i]
+          <small stmt list>
+            <assignment>
+              <name>
+              </name>
+              <expr>
+                <and test>
+                  <not test>
+                    <comparison>
+                      <term>
+                        <factor>
+                          <primary>
+                            <name>
+                            </name>
+                          </primary>
+                        </factor>
+                        <term opr>
+                        </term opr>
+                        <factor>
+                          <primary>
+                            <name>
+                            </name>
+                            <subscription>
+                              <expr>
+                                <and test>
+                                  <not test>
+                                    <comparison>
+                                      <term>
+                                        <factor>
+                                          <primary>
+                                            <name>
+                                            </name>
+                                          </primary>
+                                        </factor>
+                                      </term>
+                                    </comparison>
+                                  </not test>
+                                </and test>
+                              </expr>
+                            </subscription>
+                          </primary>
+                          <factor opr>
+                          </factor opr>
+                          <primary>
+Asp parser error on line 10: Expected an expression atom but found a *!

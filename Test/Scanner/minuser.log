@@ -1,0 +1,317 @@
+<program>
+   1: # Dette programmet er lovlig, og skal tolkes slik i henhold til grammatikken:
+   2: # 
+   3: #   (-a) - (-b) - (-1)
+   4: 
+   5: a = 1
+  <stmt>
+    <small stmt list>
+      <assignment>
+        <name>
+        </name>
+        <expr>
+          <and test>
+            <not test>
+              <comparison>
+                <term>
+                  <factor>
+                    <primary>
+                      <atom>
+                        <integer literal>
+                        </integer literal>
+                      </atom>
+                    </primary>
+                  </factor>
+                </term>
+              </comparison>
+            </not test>
+          </and test>
+        </expr>
+      </assignment>
+    </small stmt list>
+  </stmt>
+   6: b = 2
+  <stmt>
+    <small stmt list>
+      <assignment>
+        <name>
+        </name>
+        <expr>
+          <and test>
+            <not test>
+              <comparison>
+                <term>
+                  <factor>
+                    <primary>
+                      <atom>
+                        <integer literal>
+                        </integer literal>
+                      </atom>
+                    </primary>
+                  </factor>
+                </term>
+              </comparison>
+            </not test>
+          </and test>
+        </expr>
+      </assignment>
+    </small stmt list>
+  </stmt>
+   7: v = -a--b--1
+  <stmt>
+    <small stmt list>
+      <assignment>
+        <name>
+        </name>
+        <expr>
+          <and test>
+            <not test>
+              <comparison>
+                <term>
+                  <factor>
+                    <factor prefix>
+                    </factor prefix>
+                    <primary>
+                      <atom>
+                        <name>
+                        </name>
+                      </atom>
+                    </primary>
+                  </factor>
+                  <term opr>
+                  </term opr>
+                  <factor>
+                    <factor prefix>
+                    </factor prefix>
+                    <primary>
+                      <atom>
+                        <name>
+                        </name>
+                      </atom>
+                    </primary>
+                  </factor>
+                  <term opr>
+                  </term opr>
+                  <factor>
+                    <factor prefix>
+                    </factor prefix>
+                    <primary>
+                      <atom>
+                        <integer literal>
+                        </integer literal>
+                      </atom>
+                    </primary>
+                  </factor>
+                </term>
+              </comparison>
+            </not test>
+          </and test>
+        </expr>
+      </assignment>
+    </small stmt list>
+  </stmt>
+   8: print(v)
+  <stmt>
+    <small stmt list>
+      < expression Statement>
+        <expr>
+          <and test>
+            <not test>
+              <comparison>
+                <term>
+                  <factor>
+                    <primary>
+                      <atom>
+                        <name>
+                        </name>
+                      </atom>
+                      <arguments>
+                        <expr>
+                          <and test>
+                            <not test>
+                              <comparison>
+                                <term>
+                                  <factor>
+                                    <primary>
+                                      <atom>
+                                        <name>
+                                        </name>
+                                      </atom>
+                                    </primary>
+                                  </factor>
+                                </term>
+                              </comparison>
+                            </not test>
+                          </and test>
+                        </expr>
+                      </arguments>
+                    </primary>
+                  </factor>
+                </term>
+              </comparison>
+            </not test>
+          </and test>
+        </expr>
+      </ expression Statement>
+    </small stmt list>
+  </stmt>
+   9: w = (-a)-(-b)-(-1)
+  <stmt>
+    <small stmt list>
+      <assignment>
+        <name>
+        </name>
+        <expr>
+          <and test>
+            <not test>
+              <comparison>
+                <term>
+                  <factor>
+                    <primary>
+                      <atom>
+                        <inner expr>
+                          <expr>
+                            <and test>
+                              <not test>
+                                <comparison>
+                                  <term>
+                                    <factor>
+                                      <factor prefix>
+                                      </factor prefix>
+                                      <primary>
+                                        <atom>
+                                          <name>
+                                          </name>
+                                        </atom>
+                                      </primary>
+                                    </factor>
+                                  </term>
+                                </comparison>
+                              </not test>
+                            </and test>
+                          </expr>
+                        </inner expr>
+                      </atom>
+                    </primary>
+                  </factor>
+                  <term opr>
+                  </term opr>
+                  <factor>
+                    <primary>
+                      <atom>
+                        <inner expr>
+                          <expr>
+                            <and test>
+                              <not test>
+                                <comparison>
+                                  <term>
+                                    <factor>
+                                      <factor prefix>
+                                      </factor prefix>
+                                      <primary>
+                                        <atom>
+                                          <name>
+                                          </name>
+                                        </atom>
+                                      </primary>
+                                    </factor>
+                                  </term>
+                                </comparison>
+                              </not test>
+                            </and test>
+                          </expr>
+                        </inner expr>
+                      </atom>
+                    </primary>
+                  </factor>
+                  <term opr>
+                  </term opr>
+                  <factor>
+                    <primary>
+                      <atom>
+                        <inner expr>
+                          <expr>
+                            <and test>
+                              <not test>
+                                <comparison>
+                                  <term>
+                                    <factor>
+                                      <factor prefix>
+                                      </factor prefix>
+                                      <primary>
+                                        <atom>
+                                          <integer literal>
+                                          </integer literal>
+                                        </atom>
+                                      </primary>
+                                    </factor>
+                                  </term>
+                                </comparison>
+                              </not test>
+                            </and test>
+                          </expr>
+                        </inner expr>
+                      </atom>
+                    </primary>
+                  </factor>
+                </term>
+              </comparison>
+            </not test>
+          </and test>
+        </expr>
+      </assignment>
+    </small stmt list>
+  </stmt>
+  10: print(w)
+  <stmt>
+    <small stmt list>
+      < expression Statement>
+        <expr>
+          <and test>
+            <not test>
+              <comparison>
+                <term>
+                  <factor>
+                    <primary>
+                      <atom>
+                        <name>
+                        </name>
+                      </atom>
+                      <arguments>
+                        <expr>
+                          <and test>
+                            <not test>
+                              <comparison>
+                                <term>
+                                  <factor>
+                                    <primary>
+                                      <atom>
+                                        <name>
+                                        </name>
+                                      </atom>
+                                    </primary>
+                                  </factor>
+                                </term>
+                              </comparison>
+                            </not test>
+                          </and test>
+                        </expr>
+                      </arguments>
+                    </primary>
+                  </factor>
+                </term>
+              </comparison>
+            </not test>
+          </and test>
+        </expr>
+      </ expression Statement>
+    </small stmt list>
+  </stmt>
+</program>
+
+a =  1 
+b =  2 
+v =  - a -  - b -  -  1 
+print (v) 
+w = ( - a) - ( - b) - ( -  1 )
+print (w) 

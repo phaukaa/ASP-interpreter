@@ -1,0 +1,8 @@
+<program>
+   1: # I Asp får tall ikke lov å starte med sifferet 0, men
+   2: # selve tallet 0 er selvfølgelig et unntak.
+   3: # (I Python 2 er det anderledes; da brukes innledende 0-siffer
+   4: # til å angi at tallet er på oktal form.)
+   5: 
+   6: a = 0   # Dette er helt OK.
+   7: a = 04  # Men ikke dette. I Asp er dette to tall: 0 og 4!

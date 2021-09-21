@@ -1,0 +1,30 @@
+<project>
+
+    <target name="clean">
+        <delete dir="build"/>
+    </target>
+
+    <target name="compile" depends="clean">
+        <mkdir dir="build/classes"/>
+        <javac srcdir="no" destdir="build/classes" debug="true" includeantruntime="false"/>
+    </target>
+
+    <target name="jar" depends="compile">
+        <!--<mkdir dir="build/jar"/>-->
+        <jar destfile="asp.jar" basedir="build/classes">
+            <manifest>
+                <attribute name="Main-Class" value="no/uio/ifi/asp/main/Main"/>
+            </manifest>
+        </jar>
+    </target>
+
+    <target name="zip">
+		<zip destfile="asp.zip" basedir="" excludes="Test/**,**/asp.zip"/>
+	</target>
+
+    <target name="run" depends="jar">
+        <java jar="build/jar/project.jar" fork="true">
+	</java>
+    </target>
+
+</project>
